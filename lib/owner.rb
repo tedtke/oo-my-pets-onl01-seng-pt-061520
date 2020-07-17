@@ -55,7 +55,8 @@ class Owner
   
   def walk_dogs
     Dog.all.each do |dog|
-      dog.mood == "happy"
+      if dog.mood == "nervous"
+        puts ""
     end
   end
 end
