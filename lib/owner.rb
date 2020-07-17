@@ -85,5 +85,6 @@ class Owner
   def list_pets
     list = "I have #{dogs.count} dog(s), and #{cats.count} cat(s)."
     list
+    #wow what the heck list will just do as it's told like this!
   end
 end
