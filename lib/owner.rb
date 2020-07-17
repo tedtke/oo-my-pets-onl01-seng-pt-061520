@@ -68,4 +68,12 @@ class Owner
       end
     end
   end
+  
+  def sell_pets
+    @@all.each do |pets|
+      if pets.owner != self
+        pets.mood = "nervous"
+      end
+    end
+  end 
 end
