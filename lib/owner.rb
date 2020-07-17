@@ -77,8 +77,8 @@ class Owner
       i.owner = nil
     end
   end 
-  def list_pets
-    pets = self.dogs + self.cats
-    pets.each do 
-  end
+  # def list_pets
+  #   pets = self.dogs + self.cats
+  #   pets.each do 
+  # end
 end
