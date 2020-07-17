@@ -70,11 +70,14 @@ class Owner
   end
   
   def sell_pets
-    pets = self.dogs + self.cats
-
+    pets = self.dogs + self.cats #using the + to combing dogs and cats to equal to pets instance variable
+    #iterate through pets to set their mood to nervous and their owner to be nil or no owner
     pets.each do |i|
       i.mood = "nervous"
       i.owner = nil
     end
   end 
+  def list_pets
+    
+  end
 end
