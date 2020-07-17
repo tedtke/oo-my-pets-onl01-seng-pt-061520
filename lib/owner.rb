@@ -81,4 +81,9 @@ class Owner
   #   pets = self.dogs + self.cats
   #   pets.each do 
   # end
+  
+   def list_pets
+      list = "I have #{dogs.count} dog(s), and #{cats.count} cat(s)."
+      list
+    end
 end
