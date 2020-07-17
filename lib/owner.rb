@@ -57,6 +57,7 @@ class Owner
     Dog.all.each do |dog|
       if walk_dogs
         dog.mood = "happy"
+      end
     end
   end
 end
