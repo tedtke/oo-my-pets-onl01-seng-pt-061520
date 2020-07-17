@@ -71,7 +71,7 @@ class Owner
   
   def sell_pets
     @@all.each do |pets|
-      if pets.owner != self
+      if @owner != self
         pets.mood = "nervous"
       end
     end
