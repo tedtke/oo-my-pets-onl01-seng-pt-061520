@@ -81,6 +81,7 @@ class Owner
     Owner.each do |i| 
       if i = i
         puts "I have #{@owner.dogs.count}, and #{@owner.cats.count} cat(s)."
+      end
     end
   end
 end
