@@ -78,7 +78,9 @@ class Owner
     end
   end 
   def list_pets
-    Owner.each do |i|
+    Owner.each do |i| 
+      if i = i
       puts "I have #{@owner.dogs.count}, and #{@owner.cats.count} cat(s)."
+    end
   end
 end
