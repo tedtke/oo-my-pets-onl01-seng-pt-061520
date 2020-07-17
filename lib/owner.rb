@@ -79,6 +79,6 @@ class Owner
   end 
   def list_pets
     Owner.each do |i|
-      puts 
+      puts "I have #{@owner.dogs.count}, and #{@owner.cats.count} cat(s)."
   end
 end
