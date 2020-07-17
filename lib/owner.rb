@@ -60,6 +60,7 @@ class Owner
       end
     end
   end
+  
  def feed_cats
     Cat.all.each do |cat|
       if cat.owner == self
